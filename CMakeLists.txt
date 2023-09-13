@@ -84,9 +84,9 @@ if(APPLE)
 endif()
 
 # Our configuration
-configure_file(
-    "${CMAKE_CURRENT_SOURCE_DIR}/include/config.hpp.in"
-    "${CMAKE_CURRENT_BINARY_DIR}/include/fastcgi++/config.hpp" @ONLY)
+# configure_file(
+#     "${CMAKE_CURRENT_SOURCE_DIR}/include/config.hpp.in"
+#     "${CMAKE_CURRENT_BINARY_DIR}/include/fastcgi++/config.hpp" @ONLY)
 
 # Are we worrying about SQL?
 option(SQL "Set to ON to build and install the SQL components" OFF)
